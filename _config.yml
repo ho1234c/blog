@@ -67,8 +67,10 @@ theme: material
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# Deployment
 deploy:
-  type:
+  type: git
+  repo: https://github.com/ho1234c/ho1234c.github.com
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
