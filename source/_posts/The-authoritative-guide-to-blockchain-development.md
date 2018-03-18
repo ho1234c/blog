@@ -209,3 +209,4 @@ Naval Ravikan는 [최근 인터뷰](https://www.pscp.tv/w/1eaKbqrWloRxX)에서 �
 - [Gwern의 비트코인의 단점에 대한 통찰있는 에세이](https://www.gwern.net/Bitcoin-is-Worse-is-Better)
 
 - 더 알고싶으시다면 [Jameson Lopp의 비트코인에 대한 풍부한 자료](https://lopp.net/bitcoin.html)를 확인해보세요
+
