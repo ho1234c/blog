@@ -2,6 +2,9 @@
 title: 모로코여행 - 3
 date: 2018-10-15 21:37:10
 tags:
+  - morocco
+categories:
+  - travel
 ---
 ## 길치
 

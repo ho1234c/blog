@@ -2,6 +2,9 @@
 title: 모로코여행 - 4
 date: 2018-10-15 22:06:54
 tags:
+  - morocco
+categories:
+  - travel
 ---
 
 ## 프라이빗투어

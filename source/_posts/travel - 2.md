@@ -1,7 +1,9 @@
 ---
 title: 모로코여행 - 2
 date: 2018-10-15 07:07:51
-tags:
+  - morocco
+categories:
+  - travel
 ---
 ## 마라케시
 
