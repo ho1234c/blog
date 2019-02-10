@@ -1,6 +1,7 @@
 ---
 title: 모로코여행 - 1
 date: 2018-10-15 06:24:07
+tags:
   - morocco
 categories:
   - travel
