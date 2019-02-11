@@ -8,7 +8,7 @@ categories:
 thumbnail: /images/javascript-abyss/javascirpt-abyss-thumbnail.png
 ---
 
-javscript는 왜그럴까
+자바스크립트는 왜그럴까
 <!--more-->
 
 <style>
@@ -23,7 +23,7 @@ img{
 자바스크립트와 관련된 유명한 짤이다. 처음에는 별 생각없이 넘겼는데, 다시보니 왜 그럴까 궁금해졌다. 그래서 어쩌면 쓸모없어 보이는것들을 가볍게 정리하려한다. 깊이들어가면 끝도없기때문에 스스로 왜 그런지 납득할 정도로만.
 
 ### TL;DR
-요약하면 [명세](http://www.ecma-international.org/ecma-262/5.1/)에 의해 그렇다.
+요약하면 [명세](http://www.ecma-international.org/ecma-262/5.1/)에 의해 그렇다. 
 
 </br>
 
@@ -43,8 +43,8 @@ img{
 0.1, 0.2, 0.3 모두 정확한 값이아닌, 근사값으로 추정되어 표현된다. 이때, 표현되는 0.3은 실제 0.3보다 약간작다. 그리고 표현되는 0.1과 0.2은 모두 실제값보다 약간크다. 따라서 ```0.1 + 0.2; // 0.30000000000000004```의 결과가 나온다 
 </br>
 
-### ```Math.max() // +Infinity```
-### ```Math.min() // -Infinity```
+### ```Math.max() // -Infinity```
+### ```Math.min() // +Infinity```
 
 ```Math.max()```, ```Math.min()```은 각각 입력한 인수중 최대/최소를 반환하는 빌트인 함수이다. ECMA-262의 [max함수 정의](http://www.ecma-international.org/ecma-262/5.1/#sec-15.8.2.11), [min함수 정의](http://www.ecma-international.org/ecma-262/5.1/#sec-15.8.2.12) 에서 인수가없으면 각각 -Infinity, +Infinity를 반환한다.
 
