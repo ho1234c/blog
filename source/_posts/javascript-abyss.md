@@ -34,7 +34,7 @@ img{
 
 ### ```9999999999999999; // 10000000000000000 ```
 
-자바스크립트는 64-bit floating point representation을 사용하기때문에 -(2<sup>53</sup> - 1)과 2<sup>53</sup> - 1 사이의 값만 안전하게 표현할 수 있다. 9999999999999999는  9007199254740991(2<sup>53</sup> - 1) 보다 크기 때문에 발생하는 오차. [floating point representation(부동소수점 표현)에 대한 기술표준](https://en.wikipedia.org/wiki/IEEE_754)
+자바스크립트는 [64-bit floating point representation](https://en.wikipedia.org/wiki/IEEE_754)을 사용하기때문에 -(2<sup>53</sup> - 1)과 2<sup>53</sup> - 1 사이의 값만 안전하게 표현할 수 있다. 9999999999999999는  9007199254740991(2<sup>53</sup> - 1) 보다 크기 때문에 발생하는 오차.
 </br>
 ### ```0.5 + 0.1 == 0.6; // true```
 ### ```0.2 + 0.1 == 0.3; // false```
@@ -102,7 +102,7 @@ img{
 </br>
 
 ### ```[] == 0 // true```
-[$11.9.3](http://www.ecma-international.org/ecma-262/5.1/#sec-11.9.3)의 9번에 의해 ```[]==0```에서 ```[]```는 primitive로 바뀌고 ```[] == 0```는 ```'' == 0```가 된다. 이어서 5번에 의해 ```''```는 숫자우선변환되고, [$9.3.1](http://www.ecma-international.org/ecma-262/5.1/#sec-9.3.1)에 의해 빈 string은 0이다. 따라서 ```0==0```이므로 ```true```이다.
+[$11.9.3](http://www.ecma-international.org/ecma-262/5.1/#sec-11.9.3)의 9번에 의해 ```[] == 0```의 ```[]```는 primitive로 바뀌어 ```'' == 0```가 된다. 이어서 5번에 의해 ```''```는 숫자우선변환되고, [$9.3.1](http://www.ecma-international.org/ecma-262/5.1/#sec-9.3.1)에 의해 빈 string은 0이다. 따라서 ```0 == 0```이므로 ```true```이다.
 
 </br>
 -------
