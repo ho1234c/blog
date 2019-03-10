@@ -3,6 +3,7 @@ title: 모로코여행 - 3
 date: 2018-10-17 21:37:10
 tags:
   - morocco
+  - travel
 categories:
   - travel
 ---
